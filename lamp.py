@@ -1,5 +1,5 @@
 # Author: Luis Gustavo Nonato  -- <gnonato@icmc.usp.br>
-# License: BSD 3 clause (C) 2014
+# License: BSD 3 - Clause License 2018
 
 # This is an implementation of the technique described in:
 # http://www.lcad.icmc.usp.br/~nonato/pubs/lamp.pdf
