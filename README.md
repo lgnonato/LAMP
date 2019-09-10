@@ -3,7 +3,7 @@ The Local Affine Multidimensional Projection (LAMP) technique is a versatile met
 
 1. LAMP has been designed to make use of a set of control points to drive the mapping process. If the position of the contol points change the mapping changes accordingly. However, you can also use LAMP without any control points (see _control\_points\_free.py_);
 2. LAMP is also able to handle streaming data (since the control points are fixed);
-3. It is stable, that is, small perturbations in the data results in small perturbation in the mapping. 
+3. It is stable, that is, small perturbations in the data result in small perturbations in the mapping. 
 
 PS. LAMP only supports Cartesian data.
 
@@ -11,7 +11,7 @@ The provided ``class Lamp`` code implements the LAMP technique described in the 
 
 - P. Joia, D. Coimbra, J. Cuminato, F. Paulovich, L.G. Nonato. [Local affine multidimensional projection](http://www.lcad.icmc.usp.br/~nonato/pubs/lamp.pdf). IEEE Transactions on Visualization and Computer Graphics, 17(12):2563-71, 2011.
 
-Please cite/acknowledge the paper above above when using the provided code in you work.
+Please cite/acknowledge the paper above when using the code in your work.
 
 
 
