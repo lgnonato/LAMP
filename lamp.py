@@ -140,7 +140,7 @@ class Lamp():
         ctp_data = self.control_points_data
 
         if self.weights is None:
-            self.weights = cdist(self.data,ctp_data,p=2.)
+            self.weights = cdist(self.data,ctp_data,'euclidean')
             self.weights = 1.0/(self.weights+epsilon)
 
         for i in range(n):
